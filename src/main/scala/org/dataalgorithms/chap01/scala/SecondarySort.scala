@@ -30,10 +30,14 @@ object SecondarySort {
 
     val input = sc.textFile(inputPath)
 
+    //------------------------------------------------
+    // each input line/record has the following format:
+    // <id><,><time><,><value>
+    //-------------------------------------------------
     val valueToKey = input.map(x => {
       val line = x.split(",")
-      ((line(0) + "-" + line(1), line(3).toInt), line(3).toInt)
-    })
+      ((line(0) + "-" + line(1), line(2).toInt), line(2).toInt)
+    })    
 
     implicit def tupleOrderingDesc = new Ordering[Tuple2[String, Int]] {
       override def compare(x: Tuple2[String, Int], y: Tuple2[String, Int]): Int = {

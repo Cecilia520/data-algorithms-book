@@ -6,15 +6,23 @@
 * Publisher: [O'Reilly Media](http://shop.oreilly.com/product/0636920033950.do)
 * Published date: July 2015
 
+Git Repository
+==============
+The book's codebase can also be downloaded from the git repository at:
+````
+git clone https://github.com/mahmoudparsian/data-algorithms-book.git
+````
+
+[Upgraded to Spark-2.1.0](http://spark.apache.org/news/spark-2-1-0-released.html)
+=========================
+
+
 [Production Version is Available NOW!](http://shop.oreilly.com/product/0636920033950.do)
 ======================================
 
-[Upgraded to Spark-2.0.0](http://spark.apache.org/news/spark-2-0-0-released.html)
-=========================
-
 [![Data Algorithms Book](./misc/da_book3.jpeg)](http://shop.oreilly.com/product/0636920033950.do)
 
-[Added Java 8's LAMBDA Expressions to Spark...](./misc/jdk8_and_lambda.md)
+[Java 8's LAMBDA Expressions to Spark...](./misc/jdk8_and_lambda.md)
 ================================================
 
 [Scala Spark Solutions](./src/main/scala/org/dataalgorithms)
@@ -35,7 +43,7 @@
 [Webinars and Presentions on Data Algorithms](./misc/webinars.md)
 =================================================================
 
-[Introduction to MapReduce](https://github.com/mahmoudparsian/data-algorithms-book/tree/master/src/main/java/org/dataalgorithms/bonus/charcount)
+[Introduction to MapReduce](https://github.com/mahmoudparsian/data-algorithms-book/tree/master/src/main/java/org/dataalgorithms/chapB09/charcount)
 ===========================
  
 [Bonus Chapters](./misc/bonus-chapters.md)
